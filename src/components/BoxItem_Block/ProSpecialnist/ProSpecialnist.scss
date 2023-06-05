@@ -1,0 +1,13 @@
+$main-fonts: 'Rubik', sans-serif;
+$suport_font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.main__title {
+  display: block;
+  text-align: center;
+  letter-spacing: 20px;
+  font-size: 70px;
+  font-family: $main-fonts, $suport_font;
+  padding-top: 20px;
+  text-decoration: 3px solid underline;
+}
+

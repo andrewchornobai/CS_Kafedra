@@ -1,0 +1,127 @@
+{
+  "box": {
+    "title": [
+      "Вступнику",
+      "Загальна інформація",
+      "Напрямки діяльності",
+      "Студенту"
+    ],
+    "titlePhoto":[
+      "../images/photo_1.png",
+      "../images/photo_2.png",
+      "../images/photo_3.png",
+      "../images/photo_4.png"
+    ],
+    "subTitle": [
+      [
+        {
+          "title": "Про спеціальність",
+          "link": "https://ldubgd.edu.ua/content/pro-specialnist-122-kompyuteni-nauki"
+        },
+        {
+          "title": "Освітня програма бакалавра",
+          "link": "https://ldubgd.edu.ua/content/kompyuterni-nauki"
+        },
+        {
+          "title": "Освітня програма магістра",
+          "link": "https://ldubgd.edu.ua/content/kompyuterni-nauki"
+        },
+        {
+          "title":"Правила прийому",
+          "link": "https://ldubgd.edu.ua/abituriientu"
+        },
+        {
+          "title":"Довузівська підготовка",
+          "link" :"https://ldubgd.edu.ua/content/kursi-douniversitetskoyi-pidgotovki"
+        }
+      ],
+      [
+        {
+          "title":"Історія кафедри",
+          "link": "https://ldubgd.edu.ua/content/istoriya-viniknennya-kafedri"
+        },
+        {
+          "title":"Науково-педагогічний склад",
+          "link": "https://ldubgd.edu.ua/content/naukovo-pedagogichniy-sklad-kafedri"
+        },
+        {
+          "title":"Випускники",
+          "link": "https://ldubgd.edu.ua/content/vipuskniki-specialnosti"
+        },
+        {
+          "title":"Партнери",
+          "link": "https://ldubgd.edu.ua/content/partneri-2"
+        },
+        {
+          "title":"Лабораторії",
+          "link": "https://ldubgd.edu.ua/content/laboratoriyi"
+        },
+        {
+          "title":"Положення про кафедру",
+          "link": "https://ldubgd.edu.ua/sites/default/files/4_kafedru/it/polozhennya_pro_kafedru_itts.pdf"
+        }
+      ],
+      [
+        {
+          "title":"Освітня діяльність ",
+          "link": "https://ldubgd.edu.ua/content/osvitnya-diyalnist-kafedri"
+        },
+        {
+          "title":"Наукова діяльність",
+          "link": "https://ldubgd.edu.ua/content/naukova-diyalnist-5"
+        },
+        {
+          "title":"Видавнича діяльність",
+          "link": "https://ldubgd.edu.ua/content/vidavnicha-diyalnist-kafedri"
+        },
+        {
+          "title":"Міжнародна діяльність",
+          "link": "https://ldubgd.edu.ua/content/mizhnarodna-diyalnist-kafedri"
+        },
+        {
+          "title":"Олімпіада",
+          "link": "https://ldubgd.edu.ua/content/olimpiada-0"
+        },
+        {
+          "title":"Конференція",
+          "link": "https://ldubgd.edu.ua/content/konferenciya-it"
+        },
+        {
+          "title":"Наукове товариство",
+          "link": "https://ldubgd.edu.ua/content/naukove-tovaristvo-kursantiv-ta-studentiv"
+        }
+      ],
+      [
+        {
+          "title": "Розклад",
+          "link": "https://rozklad.ldubgd.edu.ua/cgi-bin/timetable.cgi?n=700"
+        },
+        {
+          "title": "Віртуальний університет",
+          "link": "http://virt.ldubgd.edu.ua/"
+        },
+        {
+          "title": "РКтаСС",
+          "link": "https://ldubgd.edu.ua/content/kursantske-ta-studentske-samovryaduvannya/zag-inf"
+        },
+        {
+          "title": "Міжнародні студентські програми",
+          "link": "https://ldubgd.edu.ua/content/mizhnarodni-studentski-programi-0"
+        },
+        {
+          "title": "Гуртки та секції",
+          "link": "https://ldubgd.edu.ua/content/mistecki-samodiyalni-gurtki"
+        },
+       
+        {
+          "title": "Працевлаштування",
+          "link": "https://ldubgd.edu.ua/content/pracevlashtuvannya-0"
+        },
+        {
+          "title": "Військова кафедра",
+          "link": "https://ldubgd.edu.ua/node/2298"
+        }
+      ] 
+    ]
+  }
+}

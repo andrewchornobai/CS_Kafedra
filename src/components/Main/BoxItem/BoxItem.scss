@@ -1,0 +1,52 @@
+.boxItems {
+  width: 500px;
+  min-height: 600px;
+  margin: 20px 100px;
+  margin-bottom: 100px;
+  border: 1px solid black;
+  border-top: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+
+  &__photo {
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 50px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      font-size: 30px;
+      font-weight: 800;
+      font-family: 'Rubiik', sans-serif;
+      margin-bottom: 20px;
+    }
+
+    .title__items {
+      font-size: 20px;
+      font-family: 'Rubiik', sans-serif;
+    }
+
+    .items__a {
+      text-decoration: none;
+    }
+
+    .items__li {
+      color: black;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .items__li:hover {
+      font-weight: bold;
+      color: red;
+    }
+  }
+}

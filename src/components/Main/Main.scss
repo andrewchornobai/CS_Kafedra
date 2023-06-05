@@ -1,0 +1,101 @@
+.mainWrapper {
+  margin: 0 auto;
+  max-width: 80ch;
+}
+
+.mainImage{
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../../../public/images/kafedra_main_photo.png); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh; 
+
+  & p {
+    
+    text-align: center;
+    line-height: 150px;
+    letter-spacing: 5px;
+    font-size: 100px;
+    font-weight: 800;
+    color: white;
+    
+
+    opacity: 0; 
+    animation-name: fade-in; 
+    animation-duration: 1s; 
+    animation-fill-mode: forwards; 
+    animation-delay: 0.5s; 
+    animation-timing-function:ease-in-out;
+  }
+
+  &__btn {
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(28,28,28,0);
+    font-size: 20px;
+    cursor: pointer;
+
+    opacity: 0; 
+    animation-name: fade-in; 
+    animation-duration: 1s; 
+    animation-fill-mode: forwards; 
+    animation-delay: 0.8s; 
+    animation-timing-function:ease-in-out;
+  }
+
+  &__btn:hover{
+    transition: 0.2s, ease-in;
+    background-color: white;
+    color: black;
+  }
+}
+
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0; 
+    transform: translateY(20px); 
+  }
+  to {
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+.mainBox {
+  width: 100vw;
+  max-width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1500px) {
+  .mainImage p {
+   font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+    .mainImage p {
+     font-size: 50px;
+    }
+  }
+
+@media screen and(max-width: 700px){
+  .mainImage p {
+    font-size: 25px;
+   }
+}

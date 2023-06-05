@@ -1,0 +1,50 @@
+$main-fonts: 'Rubik',sans-serif;
+$suport_font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.news_main_title{
+  display: block;
+  text-align: center;
+  letter-spacing: 20px;
+  font-size: 70px;
+  font-family: $main-fonts, $suport_font;
+  padding-top: 20px;
+  text-decoration: 3px solid underline;
+}
+
+.news__wrapper {
+  & .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    &__img {
+      border-radius: 10px;
+      margin: 20px 20px;
+      width: 400px;
+    }
+
+    &__text-block{
+      width: 1400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &__title{
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-family: $main-fonts;
+        font-weight: 700;
+      }
+
+      &__info {
+        font-family: $main-fonts;
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+}

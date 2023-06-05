@@ -1,0 +1,22 @@
+.numberBoxItems {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  & img {
+    width: 90px;
+  }
+
+  &__p1 {
+    margin: 20px 0;
+    font-size: 95px;
+    font-weight: 300;
+  }
+
+  &__p2 {
+    font-size: 30px;
+  }
+}
+
